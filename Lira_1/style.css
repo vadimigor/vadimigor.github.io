@@ -1,0 +1,80 @@
+*{
+  padding: 0;
+}
+body{
+  text-align: center;
+  background-color: #333333;
+  padding-top: 40px;
+}
+h{
+  font-family: sans-serif;
+  text-align: center;
+  font-size: 60px;
+  color: #FF00FF;
+  font-weight: 600;
+  display: block;
+}
+a{
+  text-align: center;
+  color: #fff;
+  font-size: 35px;
+  text-decoration: none;
+}
+a:hover{
+  color: #FF00FF;
+}
+form{
+  padding-left: 90%;
+}
+button{
+  font-size: 20px;
+  font-weight: 600;
+  border-radius: 25px ;
+  margin-top: 15px;
+  padding-top: 1px;
+  padding-bottom: 5px;
+  background-color: #FF0099;
+  color: #fff;
+}
+p{
+
+  font-family: monospace;
+  font-size: 47px;
+  font-weight: 900;
+  color: #FF0099;
+  padding-right: 0;
+}
+.popup__bg{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  opacity: 0;
+  pointer-events: none;
+}
+.popup__bg.active{
+  opacity: 1;
+  pointer-events: all;
+}
+.popup{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background: #fff;
+  width: 400px;
+  padding: 25px;
+}
+.close-popup{
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+}
+.popup label{
+  width: 100%;
+  margin-bottom: 25px;
+  display: flex;
+  flex-direction: column-reverse;
+}

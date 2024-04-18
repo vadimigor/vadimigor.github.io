@@ -1,0 +1,31 @@
+*{
+  padding: 0;
+}
+body{
+  text-align: center;
+  background-color: #333333;
+  padding-top: 40px;
+}
+h{
+  font-family: sans-serif;
+  text-align: center;
+  font-size: 60px;
+  color: #FF00FF;
+  font-weight: 600;
+  display: block;
+}
+a{
+  display: block;
+  text-align: center;
+  color: #fff;
+  font-size: 35px;
+  text-decoration: none;
+}
+a:hover{
+  color: #FF00FF;
+}
+p{
+  font-family: monospace;
+  font-size: 40px;
+  color: #FF0099;
+}
